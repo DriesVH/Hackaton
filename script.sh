@@ -1,1 +1,1 @@
-
+$ cat > foo.txt
