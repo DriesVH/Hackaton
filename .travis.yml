@@ -7,7 +7,7 @@ php:
   - hhvm
   - nightly
   
-script: phpunit db.php
+script: phpunit ./api/v1/index.php
 
 after_success:
   notifications:
