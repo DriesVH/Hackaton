@@ -10,4 +10,5 @@ php:
 script: phpunit db.php
 
 after_success:
-  script: ./script.sh
+  notifications:
+    webhooks: 172.16.137.154:81/deploy.php
