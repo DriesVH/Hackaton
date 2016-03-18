@@ -9,4 +9,5 @@ php:
   
 script: phpunit db.php
 
-script: ./script.sh
+after_success:
+  script: ./script.sh
