@@ -8,3 +8,5 @@ php:
   - nightly
   
 script: phpunit db.php
+
+script: ./script.sh
