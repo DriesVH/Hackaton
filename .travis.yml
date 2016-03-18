@@ -7,4 +7,4 @@ php:
   - hhvm
   - nightly
   
-phpunit db.php
+script: phpunit db.php
